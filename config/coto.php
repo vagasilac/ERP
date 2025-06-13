@@ -1,0 +1,213 @@
+<?php
+return [
+    'risk_registers' => [
+        'risk_likelihood' => [
+            5 => 'foarte probabil să se întâmple',
+            1 => 'nu se poate întâmpla',
+            3 => 'oarecum probabil să se întâmple',
+            4 => 'probabil să se întâmple',
+            2 => 'puțin probabil să se întâmple',
+        ],
+        'risk_occurrences' => [
+            2 => 'nu s-a întâmplat în ultimii 10 ani',
+            1 => 'nu s-a mai întâmplat',
+            5 => 's-a întâmplat anul trecut',
+            4 => 's-a întâmplat în ultimii 5 ani',
+            3 => 's-a întâmplat în ultimii 10 ani',
+        ],
+        'risk_potential_loss_of_contracts' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'risk_potential_risk_to_human_health' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'risk_inability_to_meet_contract_terms' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'risk_potential_violation_of_regulations' => [
+            3 => 'definit',
+            4 => 'înalt',
+            1 => 'nici unul',
+            2 => 'posibil',
+            5 => 'riscul juridic'
+        ],
+        'risk_impact_on_company_reputation' => [
+            5 => 'foarte mare',
+            4 => 'mare',
+            3 => 'mediu',
+            2 => 'minimal',
+            1 => 'nici unul',
+        ],
+        'risk_est_cost_of_correction' => [
+            1 => '$ 0',
+            2 => '< $10,000',
+            3 => '< $100,000',
+            4 => '> $100,000',
+            5 => '> $500,000'
+        ],
+        'mitigation_likelihood' => [
+            5 => 'foarte probabil să se întâmple',
+            1 => 'nu se poate întâmpla',
+            3 => 'oarecum probabil să se întâmple',
+            4 => 'probabil să se întâmple',
+            2 => 'puțin probabil să se întâmple',
+        ],
+        'mitigation_occurrences' => [
+            2 => 'nu s-a întâmplat în ultimii 10 ani',
+            1 => 'nu s-a mai întâmplat',
+            5 => 's-a întâmplat anul trecut',
+            4 => 's-a întâmplat în ultimii 5 ani',
+            3 => 's-a întâmplat în ultimii 10 ani',
+        ],
+        'mitigation_potential_loss_of_contracts' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'mitigation_potential_risk_to_human_health' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'mitigation_inability_to_meet_contract_terms' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'mitigation_potential_violation_of_regulations' => [
+            3 => 'definit',
+            4 => 'înalt',
+            1 => 'nici unul',
+            2 => 'posibil',
+            5 => 'riscul juridic'
+        ],
+        'mitigation_impact_on_company_reputation' => [
+            5 => 'foarte mare',
+            4 => 'mare',
+            3 => 'mediu',
+            2 => 'minimal',
+            1 => 'nici unul',
+        ],
+        'mitigation_est_cost_of_correction' => [
+            1 => '$ 0',
+            2 => '< $10,000',
+            3 => '< $100,000',
+            4 => '> $100,000',
+            5 => '> $500,000'
+        ],
+    ],
+    'issues' => [
+        'bias' => [
+            'mixed' => 'amestecat',
+            'neutral' => 'neutru',
+            'opportunity' => 'oportunitate',
+            'risk' => 'risc',
+        ],
+        'priority' => [
+            'high' => 'înalt',
+            'medium' => 'medie',
+            'low' => 'mică',
+            'emergency' => 'urgență',
+        ],
+        'treatment_method' => [
+            'accept_risk' => 'accepta riscul',
+            'management_review_activity' => 'activitatea de revizuire a activității',
+            'other' => 'alte',
+            'other_auditing' => 'alte audituri',
+            'root_cause_analysis' => 'analiza cauzelor fundamentale',
+            'internal_auditing' => 'audit intern',
+            'vendor_auditing' => 'furnizor de audit',
+            'marketing_enhancement' => 'îmbunătățirea marketingului',
+            'opportunity_register' => 'registrul de oportunități',
+            'risk_register' => 'registrul de risc',
+            'corrective_action_request' => 'solicitare de acțiune corectivă',
+        ],
+    ],
+    'opportunity_registers' => [
+        'likelihood' => [
+            5 => 'foarte probabil să se întâmple',
+            1 => 'nu se poate întâmpla',
+            3 => 'oarecum probabil să se întâmple',
+            4 => 'probabil să se întâmple',
+            2 => 'puțin probabil să se întâmple',
+        ],
+        'occurrences' => [
+            2 => 'nu s-a întâmplat în ultimii 10 ani',
+            1 => 'nu s-a mai întâmplat',
+            5 => 's-a întâmplat anul trecut',
+            4 => 's-a întâmplat în ultimii 5 ani',
+            3 => 's-a întâmplat în ultimii 10 ani',
+        ],
+        'potential_for_new_business' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'potential_expansion_of_current_business' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'potential_improvement_in_satisfying_regulations' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'potential_improvement_to_internal_qms_processes' => [
+            5 => 'foarte înalt',
+            4 => 'înalt',
+            3 => 'mediu',
+            2 => 'mic',
+            1 => 'nici unul',
+        ],
+        'improvement_to_company_reputation' => [
+            1 => 'fără impact',
+            4 => 'impact bun',
+            2 => 'impact minim',
+            3 => 'impactul moderat',
+            5 => 'mare impact'
+        ],
+        'potential_cost_of_implementation' => [
+            5 => '$0',
+            4 => '< $10,000',
+            3 => '< $100,000',
+            2 => '> $100,000',
+            1 => '> $500,000',
+        ],
+        'post_implementation_success' => [
+            5 => 'a depășit așteptările',
+            3 => 'a întâlnit câteva așteptări',
+            4 => 'ați îndeplinit toate așteptările',
+            2 => 'oportunitate abandonată',
+            1 => 'oportunitatea nu a reușit',
+        ],
+        'status' => [
+            'open' => 'deschis',
+            'closed' => 'închis'
+        ],
+    ],
+];
