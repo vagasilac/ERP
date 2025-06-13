@@ -1,0 +1,2 @@
+[04-Jul-2017 04:21:53 UTC] PHP Fatal error:  Class 'App\Models\ProjectFoldersStatus' not found in /home/error404/public_html/steiger/app/Http/Controllers/ProjectsController.php on line 3085
+[04-Jul-2017 11:03:00 UTC] PHP Fatal error:  Class 'App\Models\ProjectFoldersStatus' not found in /home/error404/public_html/steiger/app/Http/Controllers/ProjectsController.php on line 3085
