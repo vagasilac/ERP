@@ -1,0 +1,7 @@
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=biR3EC5DXloUbsplMFlc00gHvpq7xyHV
+
+DB_HOST=localhost:3306
+DB_DATABASE=steiger
+DB_USERNAME=root
