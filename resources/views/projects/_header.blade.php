@@ -1,0 +1,1 @@
+{{ $project->production_name() }} {{ $project->customer->short_name }} {{ $project->name }} <a class="action pull-right marginL15"><span class="fa fa-plus"></span> Creează versiune nouă</a> <a class="action pull-right" href="{{ action('ProjectsController@create', $project->id) }}"><span class="fa fa-plus"></span> Creează subproiect</a>
